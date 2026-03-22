@@ -1,0 +1,562 @@
+{
+    "adhirasam": {
+      "calories": 219,
+      "protein": 14.2,
+      "fat": 6.4,
+      "carbohydrates": 55.7,
+      "fiber": 6.9
+    },
+    "aloo_gobi": {
+      "calories": 422,
+      "protein": 14.7,
+      "fat": 21.3,
+      "carbohydrates": 45.5,
+      "fiber": 0.7
+    },
+    "aloo_matar": {
+      "calories": 170,
+      "protein": 14.8,
+      "fat": 10.2,
+      "carbohydrates": 23.6,
+      "fiber": 6.4
+    },
+    "aloo_methi": {
+      "calories": 293,
+      "protein": 6.0,
+      "fat": 11.4,
+      "carbohydrates": 38.5,
+      "fiber": 2.4
+    },
+    "aloo_shimla_mirch": {
+      "calories": 489,
+      "protein": 5.0,
+      "fat": 7.6,
+      "carbohydrates": 27.2,
+      "fiber": 6.7
+    },
+    "aloo_tikki": {
+      "calories": 318,
+      "protein": 16.9,
+      "fat": 24.6,
+      "carbohydrates": 39.6,
+      "fiber": 7.0
+    },
+    "anarsa": {
+      "calories": 190,
+      "protein": 8.7,
+      "fat": 18.4,
+      "carbohydrates": 34.2,
+      "fiber": 1.4
+    },
+    "ariselu": {
+      "calories": 483,
+      "protein": 9.1,
+      "fat": 20.0,
+      "carbohydrates": 36.8,
+      "fiber": 5.2
+    },
+    "bandar_laddu": {
+      "calories": 322,
+      "protein": 17.8,
+      "fat": 11.1,
+      "carbohydrates": 50.0,
+      "fiber": 4.1
+    },
+    "basundi": {
+      "calories": 270,
+      "protein": 10.3,
+      "fat": 16.1,
+      "carbohydrates": 57.4,
+      "fiber": 2.0
+    },
+    "bhatura": {
+      "calories": 222,
+      "protein": 12.4,
+      "fat": 11.4,
+      "carbohydrates": 22.8,
+      "fiber": 2.5
+    },
+    "bhindi_masala": {
+      "calories": 169,
+      "protein": 7.4,
+      "fat": 21.3,
+      "carbohydrates": 32.0,
+      "fiber": 4.5
+    },
+    "biryani": {
+      "calories": 200,
+      "protein": 10.3,
+      "fat": 22.2,
+      "carbohydrates": 13.6,
+      "fiber": 2.9
+    },
+    "boondi": {
+      "calories": 451,
+      "protein": 17.4,
+      "fat": 19.9,
+      "carbohydrates": 15.1,
+      "fiber": 6.3
+    },
+    "butter_chicken": {
+      "calories": 478,
+      "protein": 11.6,
+      "fat": 23.3,
+      "carbohydrates": 57.0,
+      "fiber": 5.5
+    },
+    "chak_hao_kheer": {
+      "calories": 401,
+      "protein": 17.4,
+      "fat": 14.8,
+      "carbohydrates": 18.9,
+      "fiber": 1.0
+    },
+    "cham_cham": {
+      "calories": 438,
+      "protein": 18.5,
+      "fat": 11.3,
+      "carbohydrates": 34.1,
+      "fiber": 1.7
+    },
+    "chana_masala": {
+      "calories": 343,
+      "protein": 11.1,
+      "fat": 11.5,
+      "carbohydrates": 57.4,
+      "fiber": 7.5
+    },
+    "chapati": {
+      "calories": 250,
+      "protein": 16.5,
+      "fat": 2.6,
+      "carbohydrates": 42.8,
+      "fiber": 6.0
+    },
+    "chhena_kheeri": {
+      "calories": 343,
+      "protein": 2.9,
+      "fat": 18.0,
+      "carbohydrates": 20.8,
+      "fiber": 5.8
+    },
+    "chicken_razala": {
+      "calories": 495,
+      "protein": 6.6,
+      "fat": 21.1,
+      "carbohydrates": 31.1,
+      "fiber": 6.7
+    },
+    "chicken_tikka": {
+      "calories": 442,
+      "protein": 14.8,
+      "fat": 3.4,
+      "carbohydrates": 36.3,
+      "fiber": 0.8
+    },
+    "chicken_tikka_masala": {
+      "calories": 163,
+      "protein": 12.8,
+      "fat": 22.5,
+      "carbohydrates": 19.9,
+      "fiber": 6.5
+    },
+    "chikki": {
+      "calories": 229,
+      "protein": 19.5,
+      "fat": 11.4,
+      "carbohydrates": 26.2,
+      "fiber": 6.0
+    },
+    "daal_baati_churma": {
+      "calories": 275,
+      "protein": 4.4,
+      "fat": 3.4,
+      "carbohydrates": 17.5,
+      "fiber": 2.2
+    },
+    "daal_puri": {
+      "calories": 331,
+      "protein": 15.2,
+      "fat": 3.0,
+      "carbohydrates": 14.4,
+      "fiber": 4.7
+    },
+    "dal_makhani": {
+      "calories": 320,
+      "protein": 19.4,
+      "fat": 15.0,
+      "carbohydrates": 49.1,
+      "fiber": 2.5
+    },
+    "dal_tadka": {
+      "calories": 194,
+      "protein": 7.0,
+      "fat": 5.4,
+      "carbohydrates": 26.6,
+      "fiber": 6.6
+    },
+    "dharwad_pedha": {
+      "calories": 469,
+      "protein": 7.3,
+      "fat": 2.6,
+      "carbohydrates": 44.3,
+      "fiber": 7.7
+    },
+    "doodhpak": {
+      "calories": 303,
+      "protein": 14.1,
+      "fat": 8.7,
+      "carbohydrates": 10.3,
+      "fiber": 7.2
+    },
+    "double_ka_meetha": {
+      "calories": 294,
+      "protein": 12.4,
+      "fat": 13.9,
+      "carbohydrates": 22.5,
+      "fiber": 1.4
+    },
+    "dum_aloo": {
+      "calories": 453,
+      "protein": 12.4,
+      "fat": 18.8,
+      "carbohydrates": 52.5,
+      "fiber": 7.5
+    },
+    "gajar_ka_halwa": {
+      "calories": 290,
+      "protein": 3.3,
+      "fat": 23.8,
+      "carbohydrates": 12.6,
+      "fiber": 0.9
+    },
+    "gavvalu": {
+      "calories": 393,
+      "protein": 17.3,
+      "fat": 2.7,
+      "carbohydrates": 14.7,
+      "fiber": 7.1
+    },
+    "ghevar": {
+      "calories": 276,
+      "protein": 9.9,
+      "fat": 13.8,
+      "carbohydrates": 50.1,
+      "fiber": 3.9
+    },
+    "gulab_jamun": {
+      "calories": 188,
+      "protein": 3.6,
+      "fat": 22.8,
+      "carbohydrates": 25.7,
+      "fiber": 2.0
+    },
+    "imarti": {
+      "calories": 493,
+      "protein": 4.3,
+      "fat": 20.8,
+      "carbohydrates": 58.7,
+      "fiber": 5.4
+    },
+    "jalebi": {
+      "calories": 236,
+      "protein": 18.0,
+      "fat": 3.1,
+      "carbohydrates": 36.1,
+      "fiber": 5.0
+    },
+    "kachori": {
+      "calories": 475,
+      "protein": 16.4,
+      "fat": 4.6,
+      "carbohydrates": 58.6,
+      "fiber": 4.8
+    },
+    "kadai_paneer": {
+      "calories": 443,
+      "protein": 14.6,
+      "fat": 9.4,
+      "carbohydrates": 38.4,
+      "fiber": 7.9
+    },
+    "kadhi_pakoda": {
+      "calories": 166,
+      "protein": 3.9,
+      "fat": 21.5,
+      "carbohydrates": 25.4,
+      "fiber": 5.0
+    },
+    "kajjikaya": {
+      "calories": 352,
+      "protein": 11.8,
+      "fat": 20.3,
+      "carbohydrates": 10.4,
+      "fiber": 4.3
+    },
+    "kakinada_khaja": {
+      "calories": 437,
+      "protein": 7.6,
+      "fat": 11.8,
+      "carbohydrates": 14.9,
+      "fiber": 6.7
+    },
+    "kalakand": {
+      "calories": 450,
+      "protein": 12.7,
+      "fat": 4.7,
+      "carbohydrates": 53.7,
+      "fiber": 1.6
+    },
+    "karela_bharta": {
+      "calories": 432,
+      "protein": 9.1,
+      "fat": 24.5,
+      "carbohydrates": 25.9,
+      "fiber": 7.0
+    },
+    "kofta": {
+      "calories": 227,
+      "protein": 16.0,
+      "fat": 8.8,
+      "carbohydrates": 39.8,
+      "fiber": 6.0
+    },
+    "kuzhi_paniyaram": {
+      "calories": 430,
+      "protein": 4.3,
+      "fat": 22.3,
+      "carbohydrates": 16.1,
+      "fiber": 7.4
+    },
+    "lassi": {
+      "calories": 169,
+      "protein": 19.4,
+      "fat": 13.8,
+      "carbohydrates": 36.1,
+      "fiber": 5.0
+    },
+    "ledikeni": {
+      "calories": 473,
+      "protein": 6.3,
+      "fat": 24.4,
+      "carbohydrates": 32.5,
+      "fiber": 6.9
+    },
+    "litti_chokha": {
+      "calories": 190,
+      "protein": 10.1,
+      "fat": 24.0,
+      "carbohydrates": 16.5,
+      "fiber": 5.9
+    },
+    "lyangcha": {
+      "calories": 416,
+      "protein": 17.9,
+      "fat": 3.3,
+      "carbohydrates": 24.2,
+      "fiber": 2.2
+    },
+    "maach_jhol": {
+      "calories": 483,
+      "protein": 12.9,
+      "fat": 19.9,
+      "carbohydrates": 14.8,
+      "fiber": 7.6
+    },
+    "makki_di_roti_sarson_da_saag": {
+      "calories": 454,
+      "protein": 6.7,
+      "fat": 14.5,
+      "carbohydrates": 48.5,
+      "fiber": 7.6
+    },
+    "malapua": {
+      "calories": 313,
+      "protein": 14.5,
+      "fat": 3.9,
+      "carbohydrates": 57.2,
+      "fiber": 3.7
+    },
+    "misi_roti": {
+      "calories": 261,
+      "protein": 7.6,
+      "fat": 7.3,
+      "carbohydrates": 54.8,
+      "fiber": 3.1
+    },
+    "misti_doi": {
+      "calories": 450,
+      "protein": 16.0,
+      "fat": 12.2,
+      "carbohydrates": 21.9,
+      "fiber": 6.3
+    },
+    "modak": {
+      "calories": 335,
+      "protein": 16.5,
+      "fat": 23.8,
+      "carbohydrates": 52.0,
+      "fiber": 5.9
+    },
+    "mysore_pak": {
+      "calories": 281,
+      "protein": 12.3,
+      "fat": 11.4,
+      "carbohydrates": 53.3,
+      "fiber": 4.2
+    },
+    "naan": {
+      "calories": 331,
+      "protein": 18.1,
+      "fat": 19.5,
+      "carbohydrates": 59.4,
+      "fiber": 5.1
+    },
+    "navrattan_korma": {
+      "calories": 451,
+      "protein": 18.7,
+      "fat": 3.5,
+      "carbohydrates": 24.5,
+      "fiber": 6.7
+    },
+    "palak_paneer": {
+      "calories": 185,
+      "protein": 17.3,
+      "fat": 2.2,
+      "carbohydrates": 33.0,
+      "fiber": 4.5
+    },
+    "paneer_butter_masala": {
+      "calories": 436,
+      "protein": 10.4,
+      "fat": 22.9,
+      "carbohydrates": 32.8,
+      "fiber": 6.1
+    },
+    "phirni": {
+      "calories": 336,
+      "protein": 17.5,
+      "fat": 10.7,
+      "carbohydrates": 27.9,
+      "fiber": 5.7
+    },
+    "pithe": {
+      "calories": 171,
+      "protein": 16.6,
+      "fat": 24.9,
+      "carbohydrates": 21.4,
+      "fiber": 0.5
+    },
+    "poha": {
+      "calories": 267,
+      "protein": 14.0,
+      "fat": 22.0,
+      "carbohydrates": 15.6,
+      "fiber": 7.3
+    },
+    "poornalu": {
+      "calories": 296,
+      "protein": 13.8,
+      "fat": 13.6,
+      "carbohydrates": 30.3,
+      "fiber": 2.3
+    },
+    "pootharekulu": {
+      "calories": 157,
+      "protein": 3.2,
+      "fat": 6.3,
+      "carbohydrates": 54.7,
+      "fiber": 6.6
+    },
+    "qubani_ka_meetha": {
+      "calories": 314,
+      "protein": 8.1,
+      "fat": 21.9,
+      "carbohydrates": 29.5,
+      "fiber": 7.6
+    },
+    "rabri": {
+      "calories": 217,
+      "protein": 14.1,
+      "fat": 13.8,
+      "carbohydrates": 11.0,
+      "fiber": 2.7
+    },
+    "ras_malai": {
+      "calories": 439,
+      "protein": 12.3,
+      "fat": 10.3,
+      "carbohydrates": 55.5,
+      "fiber": 5.7
+    },
+    "rasgulla": {
+      "calories": 470,
+      "protein": 14.3,
+      "fat": 3.6,
+      "carbohydrates": 33.5,
+      "fiber": 4.0
+    },
+    "sandesh": {
+      "calories": 391,
+      "protein": 13.3,
+      "fat": 14.0,
+      "carbohydrates": 17.4,
+      "fiber": 4.5
+    },
+    "shankarpali": {
+      "calories": 500,
+      "protein": 7.2,
+      "fat": 5.9,
+      "carbohydrates": 49.4,
+      "fiber": 0.8
+    },
+    "sheer_korma": {
+      "calories": 476,
+      "protein": 8.5,
+      "fat": 17.5,
+      "carbohydrates": 58.8,
+      "fiber": 1.7
+    },
+    "sheera": {
+      "calories": 218,
+      "protein": 10.1,
+      "fat": 19.9,
+      "carbohydrates": 37.3,
+      "fiber": 1.3
+    },
+    "shrikhand": {
+      "calories": 447,
+      "protein": 11.4,
+      "fat": 11.9,
+      "carbohydrates": 13.2,
+      "fiber": 1.6
+    },
+    "sohan_halwa": {
+      "calories": 217,
+      "protein": 5.6,
+      "fat": 21.6,
+      "carbohydrates": 53.6,
+      "fiber": 5.1
+    },
+    "sohan_papdi": {
+      "calories": 487,
+      "protein": 18.7,
+      "fat": 7.8,
+      "carbohydrates": 20.6,
+      "fiber": 3.7
+    },
+    "sutar_feni": {
+      "calories": 340,
+      "protein": 12.1,
+      "fat": 24.8,
+      "carbohydrates": 14.9,
+      "fiber": 1.5
+    },
+    "unni_appam": {
+      "calories": 457,
+      "protein": 3.9,
+      "fat": 10.3,
+      "carbohydrates": 36.1,
+      "fiber": 7.9
+    }
+  }

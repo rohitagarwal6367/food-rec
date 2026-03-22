@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Recognition</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}" />
+</head>
+<body>
+    <header class="navbar">
+        <h1>🍲 Food Recognizer</h1>
+        <nav>
+            <a href="/">Home</a>
+            {% if not session.get('username') %}
+                <a href="/login">Login</a>
+            {% else %}
+                <a href="/logout" style="color: brown; font-weight: bold;">Logout</a>
+            {% endif %}
+        </nav>
+    </header>
+
+    <main class="main-section">
+        <h2>Food Recognition System</h2>
+        <p>Upload an image of food and our AI will identify it, providing nutritional info.</p>
+
+        <div class="upload-box">
+            <div class="upload-icon">⬆</div>
+            <h3>Upload Food Image</h3>
+            <p>Drag and drop or choose a file</p>
+            <form action="/predict" method="post" enctype="multipart/form-data">
+                <input type="file" name="image" accept="image/*" required />
+                <div class="button-group">
+                    <button type="submit" class="primary-btn">About Image</button>
+                    <button type="button" class="secondary-btn">Take Photo</button>
+                </div>
+            </form>
+            {% if prediction %}
+                <div class="result">
+                    <h3>Prediction: {{ prediction }}</h3>
+                    <img src="{{ url_for('static', filename=img_path) }}" width="300" />
+                </div>
+            {% endif %}
+        </div>
+
+        <div class="stats">
+            <div class="stat-box"><strong>96%</strong><br/>Accuracy</div>
+            <div class="stat-box"><strong>500+</strong><br/>Food Items</div>
+            <div class="stat-box"><strong>1s</strong><br/>Processing Time</div>
+            <div class="stat-box"><strong>1000+</strong><br/>Daily Users</div>
+        </div>
+    </main>
+</body>
+</html>

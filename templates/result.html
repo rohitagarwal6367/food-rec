@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        body {
+            position: relative;
+            margin: 0;
+            padding: 40px;
+            font-family: 'Poppins', sans-serif;
+            color: #3e2c23;
+            text-align: center;
+            overflow: auto;
+        }
+
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url("{{ url_for('static', filename='background.jpg') }}");
+            background-size: cover;
+            background-position: center;
+            filter: blur(8px);
+            z-index: -1;
+            opacity: 0.8;
+        }
+
+        .container {
+            background-color: #fffaf5;
+            padding: 30px;
+            border-radius: 12px;
+            max-width: 600px;
+            margin: auto;
+            opacity: 0.9;
+            box-shadow: 0 0 15px rgba(165, 105, 79, 0.2);
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-top: 20px;
+            border: 2px solid #d2b48c;
+        }
+
+        .back-btn, .download-btn {
+            margin-top: 20px;
+            background-color: #a0522d;
+            color: #fffaf0;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            text-decoration: none;
+            display: inline-block;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+
+        .back-btn:hover, .download-btn:hover {
+            background-color: #8b4513;
+        }
+
+        .nutrient-info {
+            text-align: left;
+            margin-top: 20px;
+            line-height: 1.6;
+            background-color: #fffaf5;
+            padding: 15px;
+            border-radius: 8px;
+            color: #4b3621;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🍽️ Food Prediction Result</h1>
+        <h2>Prediction: <span style="color: #fbc02d;">{{ prediction }}</span></h2>
+
+        <div class="nutrient-info">
+            <h3>Nutritional Information:</h3>
+            <p><strong>Calories:</strong> {{ nutrients.calories }} kcal</p>
+            <p><strong>Protein:</strong> {{ nutrients.protein }} g</p>
+            <p><strong>Fat:</strong> {{ nutrients.fat }} g</p>
+            <p><strong>Carbohydrates:</strong> {{ nutrients.carbohydrates }} g</p>
+            <p><strong>Fiber:</strong> {{ nutrients.fiber }} g</p>
+        </div>
+
+        <img src="{{ url_for('static', filename='uploads/' + image_file) }}" alt="Uploaded Food Image">
+
+        {% if allow_download %}
+            <a href="{{ url_for('download', filename=image_file.rsplit('.', 1)[0]) }}" class="download-btn">⬇️ Download Result</a>
+        {% else %}
+            <form action="{{ url_for('login') }}" method="get">
+                <input type="hidden" name="next" value="{{ url_for('download', filename=image_file.rsplit('.', 1)[0]) }}">
+                <button type="submit" class="download-btn">🔐 Login to Download</button>
+            </form>
+        {% endif %}
+
+        <br>
+        <a href="{{ url_for('index') }}" class="back-btn">🔙 Back to Home</a>
+    </div>
+</body>
+</html>
